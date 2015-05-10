@@ -1,4 +1,13 @@
-.ca-container{
+/* font-family: "AVENGEANCE HEROIC AVENGER"; */
+@font-face {
+	font-family: "AVENGEANCE HEROIC AVENGER";
+	url("../fonts/AVENGEANCE%20HEROIC%20AVENGER.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+body{
+	font-family: "AVENGEANCE HEROIC AVENGER", sans-serif;
+}.ca-container{
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
@@ -7,15 +16,15 @@
 .ca-card{
 	width:140px;
 	height: 200px;
-	border: 1px solid #000000;
+	border: 1px solid #707070;
 	border-radius: 15px;
-	box-shadow: 0px 1px 1px 0.5px #000;
+	box-shadow: 0px 1px 1px 0.5px #282828;
 	background: #ffffff;
 	position: relative;
 	margin: 20px;
 }
 h1{
-	font-size: 20px;
+	font-size: 18px;
 	z-index: 10;
 }
 .ca-card .ca-card-top h1{
@@ -268,7 +277,6 @@ i{
 .front {
 	z-index: 2;
 }
-
 .back {
 	-webkit-transform: rotateY(180deg);
 	-moz-transform: rotateY(180deg);
@@ -281,4 +289,5 @@ i{
 	left: -20px;
 	width: 140px;
 	height: 200px;
+	box-shadow: 0px 1px 1px 1px #000;
 }
